@@ -33,9 +33,44 @@ Use the `composer fund` command to find out more!
 ./run.sh
 ```
 
+```sh
+$ ./run.sh
+Hello World!
+```
+
 ## Format
 
 ```sh
 ./format.sh
+```
+
+example:
+
+```sh
+$ ./format.sh
+Loaded config default from ".php-cs-fixer.php".
+Using cache file "/usr/src/myapp/.php-cs-fixer.cache".
+Paths from configuration file have been overridden by paths provided as command arguments.
+
+Fixed 0 of 1 files in 0.011 seconds, 12.000 MB memory used
+```
+
+## Lint
+
+```sh
+./lint.sh
+```
+
+example:
+
+```sh
+$ ./lint.sh
+ 1/1 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓] 100%
+
+
+
+ [OK] No errors
+
+
 ```
 
